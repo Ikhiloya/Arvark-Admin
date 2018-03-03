@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorSelected">#CDDC39</color>
+    <color name="colorPrimary"> #222631</color>
+    <color name="colorPrimaryDark">#1C202B</color>
+    <color name="colorUnselected">#99AA00</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorTextdesc">#939393</color>
+    <color name="colorTextMain">#939393</color>
+    <color name="colorBackground">#FFF</color>
+    <color name="duskYellow">#FAD300</color>
+    <color name="grey">#939393</color>
+    <color name="detailBackground">#eee</color>
+    <color name="colorGray">#c2c2c2</color>
+    <color name="customVisibilityColor">#818181</color>
+
+</resources>

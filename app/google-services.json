@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "128581691950",
+    "firebase_url": "https://arvark-c7bab.firebaseio.com",
+    "project_id": "arvark-c7bab",
+    "storage_bucket": "arvark-c7bab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128581691950:android:43cf384f48b84069",
+        "android_client_info": {
+          "package_name": "com.loya.android.arvark_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128581691950-j3uf5ugii9kltlahvoneouqeee0b1jp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loya.android.arvark_admin",
+            "certificate_hash": "f04956196cbba845467945542c21e8c341438859"
+          }
+        },
+        {
+          "client_id": "128581691950-a2h8j014djnh5e98iqbmvb51l2pu29e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD81E40Guzjhm4JcqFMXzDEVREtS7EkSGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128581691950-a2h8j014djnh5e98iqbmvb51l2pu29e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

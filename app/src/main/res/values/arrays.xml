@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+       <item>@string/excavators</item>
+       <item>@string/buldozers</item>
+       <item>@string/scrapers</item>
+       <item>@string/motor_graders</item>
+
+    </string-array>
+    
+</resources>

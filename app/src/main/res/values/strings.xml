@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Arvark-Admin</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="post">Post</string>
+    <string name="uploads">Uploads</string>
+    <string name="excavators">Excavators</string>
+    <string name="buldozers">Buldozers</string>
+    <string name="scrapers">Scrapers</string>
+    <string name="motor_graders">Motor Graders</string>
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/profile_progress_bar"
+            android:visibility="gone"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           >
+
+
+            <ImageButton
+                android:id="@+id/equipment_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="#939393"
+                android:scaleType="centerCrop"
+                android:src="@android:drawable/ic_input_add" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/category_spinner"
+                    android:layout_width="180dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/input_outline2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/category_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="Category"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/equipment_name"
+                    android:layout_width="180dp"
+                    android:layout_height="30dp"
+                    android:layout_toRightOf="@+id/category_spinner"
+                    android:background="@drawable/input_outline2"
+                    android:gravity="center"
+                    android:hint="Name"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/equipment_original_price"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/category_spinner"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/input_outline2"
+                    android:gravity="center"
+                    android:hint="Original Price"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/equipment_discount_price"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/category_spinner"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@+id/equipment_original_price"
+                    android:background="@drawable/input_outline2"
+                    android:gravity="center"
+                    android:hint="Discount Price"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/equipment_size"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/category_spinner"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/equipment_discount_price"
+                    android:background="@drawable/input_outline2"
+                    android:gravity="center"
+                    android:hint="Size"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/equipment_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/equipment_original_price"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_outline2"
+                    android:gravity="left"
+                    android:hint="Equipment Description"
+                    android:inputType="text" />
+
+            </RelativeLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/submitBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_background"
+                    android:text="Submit Post"
+                    android:textColor="@android:color/white" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
